@@ -1,0 +1,24 @@
+group 'com.arcgis.developers.labs'
+version '1.0-SNAPSHOT'
+
+  apply plugin: 'java'
+  /* ** ADD ** */
+  apply plugin: 'application'
+  apply plugin: 'com.esri.arcgisruntime.java'
+
+  buildscript {
+    repositories {
+      maven {
+        url 'https://esri.bintray.com/arcgis'
+      }
+    }
+    dependencies {
+      classpath 'com.esri.arcgisruntime:gradle-arcgis-java-plugin:1.0.0'
+    }
+  }
+
+  arcgis.version = '100.4.0' //100.x.y for other versions
+
+  run {
+    mainClassName = 'com.arcgis.developers.labs.App'
+  }

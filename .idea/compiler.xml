@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.arcgis.developers.labs.create-a-starter-app.main" target="1.8" />
+      <module name="com.arcgis.developers.labs.create-a-starter-app.test" target="1.8" />
+      <module name="com.arcgis.developers.labs.training-project-1.main" target="1.8" />
+      <module name="com.arcgis.developers.labs.training-project-1.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

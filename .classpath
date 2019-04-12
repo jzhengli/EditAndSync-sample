@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="E:/playground/arcgis-runtime-sdk-java-100.4.0/libs/arcgis-java-api.jar"/>
+	<classpathentry kind="lib" path="E:/playground/arcgis-runtime-sdk-java-100.4.0/libs/arcgis-java-api-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/playground/arcgis-runtime-sdk-java-100.4.0/libs/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="E:/playground/arcgis-runtime-sdk-java-100.4.0/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/playground/arcgis-runtime-sdk-java-100.4.0/libs/gson-2.8.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
